@@ -1,0 +1,371 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.m-0-a {
+  margin: 0 auto;
+}
+
+.mb-1 {
+  margin-bottom: 8px;
+}
+
+.mb-2 {
+  margin-bottom: 16px;
+}
+
+.mb-3 {
+  margin-bottom: 24px;
+}
+
+.mb-4 {
+  margin-bottom: 32px;
+}
+
+.mb-5 {
+  margin-bottom: 40px;
+}
+
+.mb-6 {
+  margin-bottom: 48px;
+}
+
+.mb-7 {
+  margin-bottom: 56px;
+}
+
+.mb-4px {
+  margin-bottom: 4px;
+}
+
+.mb-18px {
+  margin-bottom: 18px;
+}
+
+.mb-20px {
+  margin-bottom: 20px;
+}
+
+.mb-68px {
+  margin-bottom: 68px;
+}
+
+.mr-2 {
+  margin-right: 16px;
+}
+
+.mr-3 {
+  margin-right: 24px;
+}
+
+.pb-3 {
+  padding-bottom: 24px;
+}
+
+.pb-22px {
+  padding-bottom: 22px;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fxd-c {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ai-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.color-primary {
+  color: #000000;
+}
+
+.color-secondary {
+  color: #ffffff;
+}
+
+.bg-color-primary {
+  background-color: #000000;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+.font-headTitle {
+  font-size: 80px;
+  line-height: 106px;
+  font-family: -apple-system, Roboto, sans-serif;
+}
+
+.font-title {
+  font-size: 64px;
+  line-height: 84px;
+  font-family: -apple-system, Roboto, sans-serif;
+}
+
+.font-l {
+  font-size: 32px;
+  line-height: 42px;
+  font-family: -apple-system, Roboto, sans-serif;
+}
+
+.font-m {
+  font-size: 24px;
+  line-height: 36px;
+  font-family: -apple-system, Roboto, sans-serif;
+}
+
+.font-s {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: -apple-system, Roboto, sans-serif;
+}
+
+.font-lh-28px {
+  line-height: 28px;
+}
+
+.font-lh-32px {
+  line-height: 32px;
+}
+
+.font-lh-33px {
+  line-height: 33px;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.fw-bolder {
+  font-weight: 900;
+}
+
+.underline {
+  border-bottom: 2px solid #000000;
+}
+
+.container {
+  width: 1200px;
+}
+
+.img-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.img-list-card img {
+  margin-bottom: 16px;
+}
+
+body {
+  font-size: 24px;
+  line-height: 36px;
+  font-family: -apple-system, Roboto, sans-serif;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.banner {
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week2/banner.png?raw=true");
+  background-size: cover;
+  padding: 308px 0;
+}
+
+.about {
+  padding: 56px 0;
+}
+
+.about li::before {
+  content: "";
+  display: inline-block;
+  background: #891818;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.brand {
+  padding: 56px 0 160px 0;
+}
+
+.works {
+  padding: 56px 0 144px 0;
+}
+
+footer {
+  padding: 64px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer a:hover {
+  color: #891818;
+}

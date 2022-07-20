@@ -1,0 +1,211 @@
+.m {
+  &-0-a {
+    margin: 0 auto;
+  }
+  &b-1 {
+    margin-bottom: map-get($map: $spacers, $key: 1);
+  }
+  &b-2 {
+    margin-bottom: map-get($map: $spacers, $key: 2);
+  }
+  &b-3 {
+    margin-bottom: map-get($map: $spacers, $key: 3);
+  }
+  &b-4 {
+    margin-bottom: map-get($map: $spacers, $key: 4);
+  }
+  &b-5 {
+    margin-bottom: map-get($map: $spacers, $key: 5);
+  }
+  &b-6 {
+    margin-bottom: map-get($map: $spacers, $key: 6);
+  }
+  &b-7 {
+    margin-bottom: map-get($map: $spacers, $key: 7);
+  }
+  &b-4px {
+    margin-bottom: 4px;
+  }
+  &b-18px {
+    margin-bottom: 18px;
+  }
+  &b-20px {
+    margin-bottom: 20px;
+  }
+  &b-68px {
+    margin-bottom: 68px;
+  }
+  &r-2 {
+    margin-right: map-get($map: $spacers, $key: 2);
+  }
+  &r-3 {
+    margin-right: map-get($map: $spacers, $key: 3);
+  }
+}
+
+.p {
+  &b-3 {
+    padding-bottom: map-get($map: $spacers, $key: 3);
+  }
+  &b-22px {
+    padding-bottom: 22px;
+  }
+}
+
+.d-flex {
+  display: flex;
+}
+
+.fxd {
+  &-c {
+    flex-direction: column;
+  }
+}
+
+.jc {
+  &-c {
+    justify-content: center;
+  }
+}
+
+.ai {
+  &-c {
+    align-items: center;
+  }
+}
+
+.ta {
+  &-c {
+    text-align: center;
+  }
+}
+
+.color {
+  &-primary {
+    color: $color-primary;
+  }
+  &-secondary {
+    color: $color-secondary;
+  }
+}
+
+.bg-color {
+  &-primary {
+    background-color: $color-primary;
+  }
+}
+
+.font {
+  &-italic {
+    font-style: italic;
+  }
+  &-headTitle {
+    font-size: $font-headTitle;
+    line-height: $line-height-headTitle;
+    font-family: $font-family-title;
+  }
+  &-title {
+    font-size: $font-title;
+    line-height: $line-height-title;
+    font-family: $font-family-title;
+  }
+  &-l {
+    font-size: $font-l;
+    line-height: $line-height-l;
+    font-family: $font-family-base;
+  }
+  &-m {
+    font-size: $font-m;
+    line-height: $line-height-m;
+    font-family: $font-family-base;
+  }
+  &-s {
+    font-size: $font-s;
+    line-height: $line-height-s;
+    font-family: $font-family-base;
+  }
+  &-lh-28px {
+    line-height: 28px;
+  }
+  &-lh-32px {
+    line-height: 32px;
+  }
+  &-lh-33px {
+    line-height: 33px;
+  }
+}
+
+.fw {
+  &-bold {
+    font-weight: 700;
+  }
+  &-bolder {
+    font-weight: 900;
+  }
+}
+
+.underline {
+  border-bottom: 2px solid $color-primary;
+}
+
+.container {
+  width: 1200px;
+}
+
+.img-list {
+  display: flex;
+  flex-wrap: wrap;
+  &-card {
+    img {
+      margin-bottom: map-get($map: $spacers, $key: 2);
+    }
+  }
+}
+
+body {
+  font-size: $font-m;
+  line-height: $line-height-m;
+  font-family: $font-family-base;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.banner {
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week2/banner.png?raw=true");
+  background-size: cover;
+  padding: 308px 0;
+}
+
+.about {
+  padding: 56px 0;
+  li::before {
+    content: "";
+    display: inline-block;
+    background: $color-tertiary;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-right: map-get($map: $spacers, $key: 2);
+  }
+}
+
+.brand {
+  padding: 56px 0 160px 0;
+}
+
+.works {
+  padding: 56px 0 144px 0;
+}
+
+footer {
+  padding: 64px 0;
+  a {
+    text-decoration: none;
+    color: $color-secondary;
+    &:hover {
+      color: $color-tertiary;
+    }
+  }
+}
